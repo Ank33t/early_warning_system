@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return new MaterialApp(
-      title: "Firebase Auth",
+      title: "Early Warning System",
       home: new MyAppHome(auth: new MyAuth()),
     );
   }

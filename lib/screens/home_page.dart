@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage>{
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: Text('Flutter Authentication Email'),
+        title: Text('Early Warning System'),
         actions: <Widget>[FlatButton(child: Text('SignOut'), onPressed: _signOut),
         ],
       ),
