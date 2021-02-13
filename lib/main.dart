@@ -51,7 +51,7 @@ class _MyAppHomeState extends State<MyAppHome>{
           _userId = user?.uid;
           _userEmail = user?.email;
         }
-
+        authStatus = user?.uid == null ? AuthStatus.NOT_LOGIN : AuthStatus.LOGIN;
       });
     });
   }
@@ -59,8 +59,7 @@ class _MyAppHomeState extends State<MyAppHome>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    switch (authStatus)
-    {
+    switch (authStatus) {
       case AuthStatus.NOT_DETERMINED:
         return _showLoading();
         break;
