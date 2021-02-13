@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510429098869",
+    "project_id": "early-warning-system-7c76d",
+    "storage_bucket": "early-warning-system-7c76d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510429098869:android:8e6e0f2f1ef8d41985593c",
+        "android_client_info": {
+          "package_name": "com.example.early_warning_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510429098869-dn8bbdj8mt9i7obmqjaa73h4h60mjr7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfLd6LvmC08iMK53ogKbf1RP8_yKNsUMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510429098869-dn8bbdj8mt9i7obmqjaa73h4h60mjr7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
